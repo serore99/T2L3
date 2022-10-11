@@ -2,3 +2,4 @@
 2. tail -n5 users.txt
 3. tail -n+11 users.txt
 4. tail -n+11 users.txt | head -n10
+5. cut -b 1 users.txt
