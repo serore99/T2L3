@@ -4,3 +4,4 @@
 4. tail -n+11 users.txt | head -n10
 5. cut -b 1 users.txt
 6. cut -b 1,3,5 users.txt
+7. cat users.txt | grep -v ^[#] | cut -d: -f1
