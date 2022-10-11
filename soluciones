@@ -1,1 +1,2 @@
 1. head -n10 users.txt
+2. tail -n5 users.txt
