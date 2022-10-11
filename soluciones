@@ -9,3 +9,4 @@
 7. cat users.txt | grep -v ^[#] | cut -d: -f3
 8. cat -n users.txt | sort -rn
 9. cat users.txt | sort -t: -k3 -n
+7. cat users.txt | grep -v ^[#] | cut -d: -f4 | sort -n
