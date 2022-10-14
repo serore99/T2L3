@@ -6,7 +6,8 @@
 6. cut -b 1,3,5 users.txt
 7. cat users.txt | grep -v ^[#] | cut -d: -f1
 8. cat users.txt | grep -v ^[#,_] | cut -d: -f1
-7. cat users.txt | grep -v ^[#] | cut -d: -f3
-8. cat -n users.txt | sort -rn
-9. cat users.txt | sort -t: -k3 -n
-7. cat users.txt | grep -v ^[#] | cut -d: -f4 | sort -n
+9. cat users.txt | grep -v ^[#] | cut -d: -f3
+10. cat -n users.txt | sort -rn
+11. cat users.txt | grep -v ^# |sort -t: -k3 -n
+12. cat users.txt | grep -v ^[#] | cut -d: -f4 | sort -n
+13. cat users.txt | grep -v ^# | cut -d: -f1,6 | sed 's/:/-/'
